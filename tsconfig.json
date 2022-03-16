@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "moduleResolution": "node",
+    "outDir": "lib",
+    "declaration": true,
+    "declarationDir": "lib"
+  },
+  "include": ["src"],
+}

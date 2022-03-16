@@ -1,0 +1,62 @@
+{
+  "ky": 185354,
+  "docuLanguageResource": {
+    "ky": 594644,
+    "title": "Ukraine: EU agrees to extend the scope of sanctions on Russia and Belarus",
+    "subtitle": "EU extends the scope of sanctions on Russia and Belarus",
+    "htmlContent": "<p>The European Commission welcomes today's agreement of Member States to adopt further targeted sanctions in view of the situation in Ukraine and in response to Belarus's involvement in the aggression. In particular, the new measures impose restrictive measures on 160 individuals<strong> </strong>and amend <a href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32006R0765\" target=\"_blank\" rel=\"noopener\">Regulation (EC) 765/2006</a> concerning restrictive measures in view of the situation in Belarus and <a href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32014R0833\" target=\"_blank\" rel=\"noopener\">Regulation (EU) 833/2014</a> concerning Russia's actions destabilising the situation in Ukraine. These amendments create a closer alignment of EU sanctions regarding Russia and Belarus and will help to ensure even more effectively that Russian sanctions cannot be circumvented, including through Belarus.</p>\n<p>For <strong>Belarus</strong>, the measures introduce <strong>SWIFT</strong> prohibitions similar to those in the Russia regime, clarify that crypto assets fall under the scope of &ldquo;transferable securities&rdquo; and further expand the existing financial restrictions by mirroring the measures already in place regarding Russia sanctions.</p>\n<p>In particular, the agreed measures will:</p>\n<ul>\n<li>Restrict the provision of SWIFT services to Belagroprombank, Bank Dabrabyt, and the Development Bank of the Republic of Belarus, as well as their Belarusian subsidiaries.</li>\n<li>Prohibit transactions with the Central Bank of Belarus related to the management of reserves or assets, and the provision of public financing for trade with and investment in Belarus.</li>\n<li>Prohibit the listing and provision of services in relation to shares of Belarus state-owned entities on EU trading venues as of 12 April 2022.</li>\n<li>Significantly limit the financial inflows from Belarus to the EU, by prohibiting the acceptance of deposits exceeding &euro;100.000 from Belarusian nationals or residents, the holding of accounts of Belarusian clients by the EU central securities depositories, as well as the selling of euro-denominated securities to Belarusian clients.</li>\n<li>Prohibit the provision of euro denominated banknotes to Belarus.</li>\n</ul>\n<p>For <strong>Russia</strong>, the amendment introduces new restrictions on the export of maritime navigation and radio communication technology, adds Russian Maritime Register of Shipping to the list of state-owned enterprises subject to financing limitations and introduces a prior information sharing provision for exports of maritime safety equipment.</p>\n<p>In addition, it also extends the exemption relating to the acceptance of deposits exceeding &euro;100.000 in EU banks to Swiss and EEA nationals.</p>\n<p>Finally, the EU confirmed the common understanding that loans and credit can be provided by any means, including crypto assets, as well as further clarified the notion of &ldquo;transferable securities&rdquo;, so as to clearly include crypto-assets, and thus ensure the proper implementation of the restrictions in place.</p>\n<p>Furthermore, the amendment introduces new restrictions.</p>\n<p><span style=\"background: white;\">Furthermore, an additional <strong>160 individuals</strong> have been listed in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine.</span></p>\n<p><span style=\"background: white;\">The listed individuals include:</span></p>\n<p><span style=\"background: white;\">- <strong>14 oligarchs and prominent businesspeople</strong> involved in key economic sectors providing a substantial source of revenue to the Russian Federation - notably in the metallurgical, agriculture, pharmaceutical, telecom and digital industries -, as well as their <strong>family members</strong>. </span></p>\n<p><span style=\"background: white;\">- <strong>146 members of the Russian Federation Council</strong>,</span><strong> </strong><span style=\"background: white;\">who ratified the government decisions of the &lsquo;Treaty of Friendship, Cooperation and Mutual Assistance between the Russian Federation and the Donetsk People's Republic' and the &lsquo;Treaty of Friendship, Cooperation and Mutual Assistance between the Russian Federation and the Luhansk People's Republic'. </span></p>\n<p><span style=\"background: white;\">Altogether, EU restrictive measures now apply to a total of <strong>862 individuals and 53 entities</strong>.</span></p>\n<p><strong>Background</strong></p>\n<p>Today's decision builds on the wide-ranging and unprecedented packages of measures the EU has been taking in response to Russia's acts of aggression on Ukraine's territorial integrity. As guardian of the EU Treaties, the European Commission is in charge of monitoring the enforcement of EU sanctions across the Union. The EU stands united in its solidarity with Ukraine and will continue to support Ukraine and its people together with its international partners, including through additional political, financial and humanitarian support.</p>\n<p><strong>For More Information</strong></p>\n<p><a href=\"https://ec.europa.eu/info/strategy/priorities-2019-2024/stronger-europe-world/eu-solidarity-ukraine_en\" target=\"_blank\" rel=\"noopener\">European Commission website on Ukraine</a></p>\n<p><a href=\"https://ec.europa.eu/commission/presscorner/detail/en/qanda_22_1401\" target=\"_blank\" rel=\"noopener\">Q&amp;A on restrictive measures</a></p>",
+    "pdfContent": null,
+    "hasPdf": true,
+    "pdfContentSize": 38838,
+    "language": "EN",
+    "dolaAvResources": [
+      {
+        "ky": 103699,
+        "title": "The European and Ukrainian flags",
+        "url": "https://ec.europa.eu/avservices/avs/files/video6/repository/prod/photo/store/store2/0/P054980-223913.jpg",
+        "reference": "P-054980/00-01",
+        "year": "2022",
+        "date": "2022-02-28",
+        "dolaAVType": "PHOTO"
+      }
+    ],
+    "dolaQuoteResources": [],
+    "attachmentResources": [],
+    "linkResources": []
+  },
+  "languages": ["BG", "CS", "DE", "EL", "ES", "ET", "FR", "LT", "MT", "NL", "SL"],
+  "refCd": "IP/22/1649",
+  "isSpeechWarning": false,
+  "docutypeResource": { "ky": 1, "code": "IP", "description": "Press release", "order": 1 },
+  "contactsResource": [
+    {
+      "ky": 21959,
+      "firstName": "Eric",
+      "lastName": "MAMER",
+      "phone": "+32 2 299 40 73",
+      "mail": "eric.mamer@ec.europa.eu",
+      "order": 1
+    },
+    {
+      "ky": 21981,
+      "firstName": "Peter",
+      "lastName": "STANO",
+      "phone": "+32 2 295 45 53",
+      "mail": "peter.stano@ec.europa.eu",
+      "order": 2
+    }
+  ],
+  "placeResource": { "ky": 1, "code": null, "description": "Brussels", "order": null, "parentPlace": null },
+  "eventDate": "2022-03-09",
+  "publishDate": "2022-03-10T10:22:12.000+0000",
+  "countriesResource": [],
+  "policiesResource": [
+    { "ky": 31, "code": "HREXTRELS", "description": null, "order": null, "piwik": null, "children": [] },
+    { "ky": 40, "code": "PRESIDENCY", "description": null, "order": null, "piwik": null, "children": [] },
+    { "ky": 1016, "code": "PR-EUWORLD", "description": null, "order": null, "piwik": null, "children": [] },
+    { "ky": 1642, "code": "UKRAINE", "description": null, "order": null, "piwik": null, "children": [] }
+  ],
+  "isPriority": false,
+  "isEmbargo": false,
+  "isNoAlert": true
+}

@@ -1,0 +1,448 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`complex schemas EU Document 1`] = `
+type: object
+properties:
+  ky:
+    type: integer
+  docuLanguageResource:
+    type: object
+    properties:
+      ky:
+        type: integer
+      title:
+        type: string
+      subtitle:
+        type: string
+      htmlContent:
+        type: string
+      pdfContent:
+        type: 'null'
+      hasPdf:
+        type: boolean
+      pdfContentSize:
+        type: integer
+      language:
+        type: string
+      dolaAvResources:
+        type: array
+        items:
+          type: object
+          required:
+            - ky
+            - title
+            - url
+            - reference
+            - year
+            - date
+            - dolaAVType
+          properties:
+            ky:
+              type: integer
+            title:
+              type: string
+            url:
+              type: string
+              format: url
+            reference:
+              type: string
+            year:
+              type: string
+            date:
+              type: string
+              format: date
+            dolaAVType:
+              type: string
+          additionalProperties: false
+      dolaQuoteResources:
+        type: array
+      attachmentResources:
+        type: array
+      linkResources:
+        type: array
+    additionalProperties: false
+  languages:
+    type: array
+    items:
+      type: string
+  refCd:
+    type: string
+  isSpeechWarning:
+    type: boolean
+  docutypeResource:
+    type: object
+    properties:
+      ky:
+        type: integer
+      code:
+        type: string
+      description:
+        type: string
+      order:
+        type: integer
+    additionalProperties: false
+  contactsResource:
+    type: array
+    items:
+      type: object
+      required:
+        - ky
+        - firstName
+        - lastName
+        - phone
+        - mail
+        - order
+      properties:
+        ky:
+          type: integer
+        firstName:
+          type: string
+        lastName:
+          type: string
+        phone:
+          type: string
+        mail:
+          type: string
+          format: email
+        order:
+          type: integer
+      additionalProperties: false
+  placeResource:
+    type: object
+    properties:
+      ky:
+        type: integer
+      code:
+        type: 'null'
+      description:
+        type: string
+      order:
+        type: 'null'
+      parentPlace:
+        type: 'null'
+    additionalProperties: false
+  eventDate:
+    type: string
+    format: date
+  publishDate:
+    type: string
+  countriesResource:
+    type: array
+  policiesResource:
+    type: array
+    items:
+      type: object
+      required:
+        - ky
+        - code
+        - description
+        - order
+        - piwik
+        - children
+      properties:
+        ky:
+          type: integer
+        code:
+          type: string
+        description:
+          type:
+            - 'null'
+        order:
+          type:
+            - 'null'
+        piwik:
+          type:
+            - 'null'
+        children:
+          type: array
+      additionalProperties: false
+  isPriority:
+    type: boolean
+  isEmbargo:
+    type: boolean
+  isNoAlert:
+    type: boolean
+additionalProperties: false
+
+`;
+
+exports[`complex schemas Rebilly KYC 1`] = `
+type: object
+properties:
+  customerId:
+    type: string
+    examples:
+      - '123_456789'
+  redirectUrl:
+    type: string
+    examples:
+      - https://example.com/return-here/
+    format: url
+  documents:
+    type: array
+    items:
+      type: object
+      required:
+        - type
+      properties:
+        type:
+          type: string
+          examples:
+            - credit-file-proof
+            - identity-proof
+            - address-proof
+        maxAttempts:
+          type: integer
+          examples:
+            - 1
+      additionalProperties: false
+  reason:
+    type: string
+    examples:
+      - registration
+additionalProperties: false
+
+`;
+
+exports[`complex schemas Rebilly Transaction 1`] = `
+type: object
+properties:
+  websiteId:
+    type: string
+    examples:
+      - 4f6cf35x-2c4y-483z-a0a9-158621f77a21
+  customerId:
+    type: string
+    examples:
+      - 4f6cf35x-2c4y-483z-a0a9-158621f77a21
+  currency:
+    type: string
+    examples:
+      - USD
+  amount:
+    type: number
+    examples:
+      - 97.97
+  invoiceIds:
+    type: array
+    items:
+      type: string
+      examples:
+        - 4f6cf35x-2c4y-483z-a0a9-158621f77a21
+  paymentInstruction:
+    type: object
+    properties:
+      token:
+        type: string
+        examples:
+          - string
+    additionalProperties: false
+  billingAddress:
+    type: object
+    properties:
+      firstName:
+        type: string
+        examples:
+          - Benjamin
+      lastName:
+        type: string
+        examples:
+          - Franklin
+      organization:
+        type: string
+        examples:
+          - Rebilly
+      address:
+        type: string
+        examples:
+          - 36 Craven St
+      address2:
+        type: string
+        examples:
+          - string
+      city:
+        type: string
+        examples:
+          - London
+      region:
+        type: string
+        examples:
+          - London
+      country:
+        type: string
+        examples:
+          - GB
+      postalCode:
+        type: string
+        examples:
+          - WC2N 5NF
+      phoneNumbers:
+        type: array
+        items:
+          type: object
+          required:
+            - label
+            - value
+            - primary
+          properties:
+            label:
+              type: string
+              examples:
+                - main
+            value:
+              type: string
+              examples:
+                - 512-710-1640
+            primary:
+              type: boolean
+              examples:
+                - true
+          additionalProperties: false
+      emails:
+        type: array
+        items:
+          type: object
+          required:
+            - label
+            - value
+            - primary
+          properties:
+            label:
+              type: string
+              examples:
+                - main
+            value:
+              type: string
+              format: email
+              examples:
+                - rebilly@example.com
+            primary:
+              type: boolean
+              examples:
+                - true
+          additionalProperties: false
+      dob:
+        type: string
+        examples:
+          - '1980-04-01T00:00:00.000Z'
+        format: date-time
+      jobTitle:
+        type: string
+        examples:
+          - CEO
+    additionalProperties: false
+  requestId:
+    type: string
+    examples:
+      - 44433322-2c4y-483z-a0a9-158621f77a21
+  gatewayAccountId:
+    type: string
+    examples:
+      - 4f6cf35x-2c4y-483z-a0a9-158621f77a21
+  description:
+    type: string
+    examples:
+      - string
+  notificationUrl:
+    type: string
+    examples:
+      - http://example.com
+    format: url
+  redirectUrl:
+    type: string
+    examples:
+      - http://example.com
+    format: url
+  customFields:
+    type: object
+    properties:
+      foo:
+        type: string
+        examples:
+          - bar
+    additionalProperties: false
+  riskMetadata:
+    type: object
+    properties:
+      ipAddress:
+        type: string
+        examples:
+          - 93.92.91.90
+        format: ipv4
+      fingerprint:
+        type: string
+        examples:
+          - pIUt3xbgX3l9g3YDiLbx
+      httpHeaders:
+        type: object
+        properties:
+          Content-Type:
+            type: string
+            examples:
+              - application/json
+          Accept:
+            type: string
+            examples:
+              - text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+        additionalProperties: false
+      browserData:
+        type: object
+        properties:
+          colorDepth:
+            type: integer
+            examples:
+              - 24
+          isJavaEnabled:
+            type: boolean
+            examples:
+              - true
+          language:
+            type: string
+            examples:
+              - en-US
+          screenWidth:
+            type: integer
+            examples:
+              - 1920
+          screenHeight:
+            type: integer
+            examples:
+              - 1080
+          timeZoneOffset:
+            type: integer
+            examples:
+              - 300
+        additionalProperties: false
+      extraData:
+        type: object
+        properties:
+          kountFraudSessionId:
+            type: string
+            examples:
+              - abcdefg12345abababab123456789012
+          payPalMerchantSessionId:
+            type: string
+            examples:
+              - dd65ratxc5qv15iph3vyoq7l6davuowa
+        additionalProperties: false
+    additionalProperties: false
+  isProcessedOutside:
+    type: boolean
+    examples:
+      - false
+  isMerchantInitiated:
+    type: boolean
+    examples:
+      - false
+  processedTime:
+    type: string
+    examples:
+      - '2019-08-24T14:15:22Z'
+    format: date-time
+  type:
+    type: string
+    examples:
+      - 3ds-authentication
+additionalProperties: false
+
+`;

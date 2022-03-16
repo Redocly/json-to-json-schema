@@ -1,0 +1,71 @@
+{
+  "websiteId": "4f6cf35x-2c4y-483z-a0a9-158621f77a21",
+  "customerId": "4f6cf35x-2c4y-483z-a0a9-158621f77a21",
+  "currency": "USD",
+  "amount": 97.97,
+  "invoiceIds": [
+    "4f6cf35x-2c4y-483z-a0a9-158621f77a21"
+  ],
+  "paymentInstruction": {
+    "token": "string"
+  },
+  "billingAddress": {
+    "firstName": "Benjamin",
+    "lastName": "Franklin",
+    "organization": "Rebilly",
+    "address": "36 Craven St",
+    "address2": "string",
+    "city": "London",
+    "region": "London",
+    "country": "GB",
+    "postalCode": "WC2N 5NF",
+    "phoneNumbers": [
+      {
+        "label": "main",
+        "value": "512-710-1640",
+        "primary": true
+      }
+    ],
+    "emails": [
+      {
+        "label": "main",
+        "value": "rebilly@example.com",
+        "primary": true
+      }
+    ],
+    "dob": "1980-04-01T00:00:00.000Z",
+    "jobTitle": "CEO"
+  },
+  "requestId": "44433322-2c4y-483z-a0a9-158621f77a21",
+  "gatewayAccountId": "4f6cf35x-2c4y-483z-a0a9-158621f77a21",
+  "description": "string",
+  "notificationUrl": "http://example.com",
+  "redirectUrl": "http://example.com",
+  "customFields": {
+    "foo": "bar"
+  },
+  "riskMetadata": {
+    "ipAddress": "93.92.91.90",
+    "fingerprint": "pIUt3xbgX3l9g3YDiLbx",
+    "httpHeaders": {
+      "Content-Type": "application/json",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+    },
+    "browserData": {
+      "colorDepth": 24,
+      "isJavaEnabled": true,
+      "language": "en-US",
+      "screenWidth": 1920,
+      "screenHeight": 1080,
+      "timeZoneOffset": 300
+    },
+    "extraData": {
+      "kountFraudSessionId": "abcdefg12345abababab123456789012",
+      "payPalMerchantSessionId": "dd65ratxc5qv15iph3vyoq7l6davuowa"
+    }
+  },
+  "isProcessedOutside": false,
+  "isMerchantInitiated": false,
+  "processedTime": "2019-08-24T14:15:22Z",
+  "type": "3ds-authentication"
+}

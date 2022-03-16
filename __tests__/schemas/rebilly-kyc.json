@@ -1,0 +1,17 @@
+{
+  "customerId": "123_456789",
+  "redirectUrl": "https://example.com/return-here/",
+  "documents": [
+    {
+      "type": "credit-file-proof",
+      "maxAttempts": 1
+    },
+    {
+      "type": "identity-proof"
+    },
+    {
+      "type": "address-proof"
+    }
+  ],
+  "reason": "registration"
+}
