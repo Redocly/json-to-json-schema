@@ -1,8 +1,10 @@
 # json-to-json-schema
 
+[![npm version](https://badgen.net/npm/v/@redocly/json-to-json-schema)](https://www.npmjs.com/package/@redocly/json-to-json-schema) [![bundle size](https://badgen.net/bundlephobia/min/@redocly/json-to-json-schema)](https://bundlephobia.com/package/@redocly/json-to-json-schema) [![dependency size](https://badgen.net/bundlephobia/dependency-count/@redocly/json-to-json-schema)](https://bundlephobia.com/package/@redocly/json-to-json-schema) [![Coverage Status](https://coveralls.io/repos/github/Redocly/json-to-json-schema/badge.svg?branch=main)](https://coveralls.io/github/Redocly/json-to-json-schema?branch=main)
+
 Convert JSON examples into JSON schema.
 
-Supports JSON Schema Draft 5 used in Swagger 2.0 and OpenAPI 3.0 and new draft `draft-2020-12` used in OpenAPI 3.1.
+Supports JSON Schema `draft-05` used in Swagger 2.0 and OpenAPI 3.0 and new draft `draft-2020-12` used in OpenAPI 3.1.
 
 ## Usage
 
