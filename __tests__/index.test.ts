@@ -31,10 +31,18 @@ describe('formats', () => {
     { name: 'ipv4', example: '127.0.0.1', expected: { type: 'string', format: 'ipv4' } },
     { name: 'ipv6', example: '::1', expected: { type: 'string', format: 'ipv6' } },
     { name: 'url', example: 'https://example.com', expected: { type: 'string', format: 'url' } },
-    { name: 'date-time', example: '2022-03-15T05:32:31.675Z', expected: { type: 'string', format: 'date-time' } },
+    {
+      name: 'date-time',
+      example: '2022-03-15T05:32:31.675Z',
+      expected: { type: 'string', format: 'date-time' },
+    },
     { name: 'date', example: '2022-03-15', expected: { type: 'string', format: 'date' } },
     { name: 'time', example: '05:32:31+00:00', expected: { type: 'string', format: 'time' } },
-    { name: 'uuid', example: 'ca761232-ed42-11ce-bacd-00aa0057b223', expected: { type: 'string', format: 'uuid' } },
+    {
+      name: 'uuid',
+      example: 'ca761232-ed42-11ce-bacd-00aa0057b223',
+      expected: { type: 'string', format: 'uuid' },
+    },
   ];
 
   test.each(tests)('format "$name"', ({ example, expected }) => {
@@ -128,13 +136,15 @@ describe('arrays', () => {
       },
     });
 
-    expect(convert(['test@example.com', null, 8, false], { targetSchema: 'draft-05-oas' })).toEqual({
-      type: 'array',
-      items: {
-        nullable: true,
-        anyOf: [{ type: 'string', format: 'email' }, { type: 'integer' }, { type: 'boolean' }],
+    expect(convert(['test@example.com', null, 8, false], { targetSchema: 'draft-05-oas' })).toEqual(
+      {
+        type: 'array',
+        items: {
+          nullable: true,
+          anyOf: [{ type: 'string', format: 'email' }, { type: 'integer' }, { type: 'boolean' }],
+        },
       },
-    });
+    );
   });
 
   test('array of mixed scalars and objects', () => {
@@ -168,7 +178,7 @@ describe('arrays', () => {
           },
           age: 25,
         },
-      ])
+      ]),
     ).toEqual({
       type: 'array',
       items: {
@@ -208,8 +218,8 @@ describe('arrays', () => {
             age: 25,
           },
         ],
-        { inferRequired: true, targetSchema: 'draft-2020-12' }
-      )
+        { inferRequired: true, targetSchema: 'draft-2020-12' },
+      ),
     ).toEqual({
       type: 'array',
       items: {
@@ -235,25 +245,39 @@ describe('arrays', () => {
 });
 
 const rebillyKyc = JSON.parse(readFileSync(__dirname + '/schemas/rebilly-kyc.json', 'utf-8'));
-const rebillyTransaction = JSON.parse(readFileSync(__dirname + '/schemas/rebilly-transaction.json', 'utf-8'));
+const rebillyTransaction = JSON.parse(
+  readFileSync(__dirname + '/schemas/rebilly-transaction.json', 'utf-8'),
+);
 const euDocument = JSON.parse(readFileSync(__dirname + '/schemas/eu-document.json', 'utf-8'));
 
 describe('complex schemas', () => {
   test('Rebilly KYC', () => {
     expect(
-      convert(rebillyKyc, { inferRequired: true, includeExamples: true, targetSchema: 'draft-2020-12' })
+      convert(rebillyKyc, {
+        inferRequired: true,
+        includeExamples: true,
+        targetSchema: 'draft-2020-12',
+      }),
     ).toMatchSnapshot();
   });
 
   test('Rebilly Transaction', () => {
     expect(
-      convert(rebillyTransaction, { inferRequired: true, includeExamples: true, targetSchema: 'draft-2020-12' })
+      convert(rebillyTransaction, {
+        inferRequired: true,
+        includeExamples: true,
+        targetSchema: 'draft-2020-12',
+      }),
     ).toMatchSnapshot();
   });
 
   test('EU Document', () => {
     expect(
-      convert(euDocument, { inferRequired: true, includeExamples: false, targetSchema: 'draft-2020-12' })
+      convert(euDocument, {
+        inferRequired: true,
+        includeExamples: false,
+        targetSchema: 'draft-2020-12',
+      }),
     ).toMatchSnapshot();
   });
 });

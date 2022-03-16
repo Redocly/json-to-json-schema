@@ -3,5 +3,5 @@ module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'node',
   snapshotSerializers: ['./__tests__/json-serializer.js'],
-  testRegex: '\.test\.ts$'
+  testRegex: '.test.ts$',
 };

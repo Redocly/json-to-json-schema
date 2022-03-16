@@ -3,9 +3,7 @@
   "customerId": "4f6cf35x-2c4y-483z-a0a9-158621f77a21",
   "currency": "USD",
   "amount": 97.97,
-  "invoiceIds": [
-    "4f6cf35x-2c4y-483z-a0a9-158621f77a21"
-  ],
+  "invoiceIds": ["4f6cf35x-2c4y-483z-a0a9-158621f77a21"],
   "paymentInstruction": {
     "token": "string"
   },

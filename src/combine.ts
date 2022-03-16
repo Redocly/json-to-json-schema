@@ -49,7 +49,9 @@ function simpleCombine(schemas: JSONSchema[], options: ConvertOptions) {
   const required = inferRequired(schemas, options);
 
   const additionalPropertiesObj =
-    options.disableAdditionalProperties || !propertiesObj.properties ? {} : { additionalProperties: false };
+    options.disableAdditionalProperties || !propertiesObj.properties
+      ? {}
+      : { additionalProperties: false };
 
   return {
     ...typeObj,
@@ -57,7 +59,7 @@ function simpleCombine(schemas: JSONSchema[], options: ConvertOptions) {
     ...exampleObj,
     ...required,
     ...propertiesObj,
-    ...additionalPropertiesObj
+    ...additionalPropertiesObj,
   };
 }
 

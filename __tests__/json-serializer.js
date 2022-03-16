@@ -1,4 +1,4 @@
-const { dump } = require("js-yaml");
+const { dump } = require('js-yaml');
 
 module.exports = {
   serialize(val) {

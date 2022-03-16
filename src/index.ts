@@ -4,7 +4,10 @@ import { mapObjectValues } from './js-utils';
 import { JSONSchema, ConvertOptions } from './types';
 import { formatExample, formatNull, getJsonSchemaType } from './utils';
 
-export function convert(example: any, options: ConvertOptions = { targetSchema: 'draft-2020-12' }): JSONSchema {
+export function convert(
+  example: any,
+  options: ConvertOptions = { targetSchema: 'draft-2020-12' },
+): JSONSchema {
   return convertValue(example, { targetSchema: 'draft-2020-12', ...options });
 }
 
@@ -30,7 +33,7 @@ function convertValue(value: any, options: ConvertOptions) {
         items: value.length
           ? combineSchemas(
               value.map(v => convertValue(v, options)),
-              options
+              options,
             )
           : undefined,
       };

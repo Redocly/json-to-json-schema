@@ -9,7 +9,7 @@ Supports JSON Schema Draft 5 used in Swagger 2.0 and OpenAPI 3.0 and new draft `
 ```js
 import { convert, format } from '@redocly/json-to-json-schema';
 
-const example = { "firstname": "John", "surname": "Doe", "birthday": "1990-02-23" };
+const example = { firstname: 'John', surname: 'Doe', birthday: '1990-02-23' };
 
 const schema = convert(example, {
   target: 'draft-05-oas', // or draft-2020-12

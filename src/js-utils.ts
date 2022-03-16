@@ -1,4 +1,7 @@
-export function mapObjectValues<T, P>(obj: Record<string, T>, cb: (key: string, value: T) => P): Record<string, P> {
+export function mapObjectValues<T, P>(
+  obj: Record<string, T>,
+  cb: (key: string, value: T) => P,
+): Record<string, P> {
   if (obj === undefined) return undefined;
   const res = {};
   for (const key of Object.keys(obj)) {
@@ -11,7 +14,7 @@ export function mapObjectValues<T, P>(obj: Record<string, T>, cb: (key: string, 
 type ObjectKey = string | number | symbol;
 export function groupByField<K extends ObjectKey, TItem extends Record<K, any>>(
   collection: TItem[],
-  field: K
+  field: K,
 ): { group: TItem[K]; values: TItem[] }[] {
   const groups: Record<ObjectKey, TItem[]> = {};
 

@@ -46,15 +46,49 @@
       "order": 2
     }
   ],
-  "placeResource": { "ky": 1, "code": null, "description": "Brussels", "order": null, "parentPlace": null },
+  "placeResource": {
+    "ky": 1,
+    "code": null,
+    "description": "Brussels",
+    "order": null,
+    "parentPlace": null
+  },
   "eventDate": "2022-03-09",
   "publishDate": "2022-03-10T10:22:12.000+0000",
   "countriesResource": [],
   "policiesResource": [
-    { "ky": 31, "code": "HREXTRELS", "description": null, "order": null, "piwik": null, "children": [] },
-    { "ky": 40, "code": "PRESIDENCY", "description": null, "order": null, "piwik": null, "children": [] },
-    { "ky": 1016, "code": "PR-EUWORLD", "description": null, "order": null, "piwik": null, "children": [] },
-    { "ky": 1642, "code": "UKRAINE", "description": null, "order": null, "piwik": null, "children": [] }
+    {
+      "ky": 31,
+      "code": "HREXTRELS",
+      "description": null,
+      "order": null,
+      "piwik": null,
+      "children": []
+    },
+    {
+      "ky": 40,
+      "code": "PRESIDENCY",
+      "description": null,
+      "order": null,
+      "piwik": null,
+      "children": []
+    },
+    {
+      "ky": 1016,
+      "code": "PR-EUWORLD",
+      "description": null,
+      "order": null,
+      "piwik": null,
+      "children": []
+    },
+    {
+      "ky": 1642,
+      "code": "UKRAINE",
+      "description": null,
+      "order": null,
+      "piwik": null,
+      "children": []
+    }
   ],
   "isPriority": false,
   "isEmbargo": false,
