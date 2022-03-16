@@ -14,7 +14,21 @@ const example = { "firstname": "John", "surname": "Doe", "birthday": "1990-02-23
 const schema = convert(example, {
   target: 'draft-05-oas', // or draft-2020-12
   includeExamples: false,
+  disableAdditionalProperties: false,
+  inferRequired: false,
 });
+```
+
+Output:
+
+```yaml
+firstname:
+  type: string
+surname:
+  type: string
+birthday:
+  type: string
+  format: date
 ```
 
 ## Similar tools
