@@ -244,6 +244,89 @@ describe('arrays', () => {
   });
 });
 
+describe('options', () => {
+  test('includeExamples + disableAdditionalProperties for draft-05-oas', () => {
+    expect(
+      convert(
+        {
+          a: 'test',
+        },
+        { includeExamples: true, disableAdditionalProperties: true, targetSchema: 'draft-05-oas' },
+      ),
+    ).toEqual({ type: 'object', properties: { a: { type: 'string', example: 'test' } } });
+  });
+
+  test('includeExamples for arrays for draft-05-oas should use first example', () => {
+    expect(
+      convert(
+        [
+          {
+            a: 'test',
+          },
+          {
+            a: 'test2',
+          },
+        ],
+        { includeExamples: true, targetSchema: 'draft-05-oas' },
+      ),
+    ).toEqual({
+      type: 'array',
+      items: {
+        type: 'object',
+        additionalProperties: false,
+        properties: { a: { type: 'string', example: 'test' } },
+      },
+    });
+  });
+
+  test('includeExamples for arrays for draft-2020-12 should collect multiple examples', () => {
+    expect(
+      convert(
+        [
+          {
+            a: 'test',
+          },
+          {
+            a: 'test2',
+          },
+        ],
+        { includeExamples: true, targetSchema: 'draft-2020-12' },
+      ),
+    ).toEqual({
+      type: 'array',
+      items: {
+        type: 'object',
+        additionalProperties: false,
+        properties: { a: { type: 'string', examples: ['test', 'test2'] } },
+      },
+    });
+  });
+
+  test('infer required with arrays of mixed schemas', () => {
+    expect(
+      convert(
+        [
+          {
+            a: 'test',
+          },
+          {},
+          {
+            b: 'test2',
+          },
+        ],
+        { inferRequired: true },
+      ),
+    ).toEqual({
+      type: 'array',
+      items: {
+        type: 'object',
+        additionalProperties: false,
+        properties: { a: { type: 'string' }, b: { type: 'string' } },
+      },
+    });
+  });
+});
+
 const rebillyKyc = JSON.parse(readFileSync(__dirname + '/schemas/rebilly-kyc.json', 'utf-8'));
 const rebillyTransaction = JSON.parse(
   readFileSync(__dirname + '/schemas/rebilly-transaction.json', 'utf-8'),

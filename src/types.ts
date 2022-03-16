@@ -1,5 +1,5 @@
 export type JSONSchema = {
-  type: 'string' | 'number' | 'ingeger' | 'object' | 'array' | 'boolean' | 'null';
+  type: 'string' | 'number' | 'integer' | 'object' | 'array' | 'boolean' | 'null';
   [k: string]: any;
 };
 

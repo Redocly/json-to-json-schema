@@ -11,22 +11,19 @@ export function mapObjectValues<T, P>(
   return res;
 }
 
-type ObjectKey = string | number | symbol;
-export function groupByField<K extends ObjectKey, TItem extends Record<K, any>>(
+export function groupBy<TItem extends object, K extends keyof TItem>(
   collection: TItem[],
   field: K,
-): { group: TItem[K]; values: TItem[] }[] {
-  const groups: Record<ObjectKey, TItem[]> = {};
+): Record<string, TItem[]> {
+  const groups: Record<string, TItem[]> = {};
 
   for (const item of collection) {
-    const group = item[field];
+    const group = item[field].toString();
     groups[group] = groups[group] || [];
     groups[group].push(item);
   }
 
-  return Object.entries(groups).map(([group, values]) => {
-    return { group: group as TItem[K], values };
-  });
+  return groups;
 }
 
 export function intersect<T>(sets: Set<T>[]): Set<T> {

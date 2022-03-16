@@ -1,5 +1,7 @@
 import { ConvertTarget, JSONSchema } from './types';
 
+const PLAIN_OBJ_PROTOTYPE = Object.getPrototypeOf({});
+
 export function getJsonSchemaType(value: any): string {
   if (typeof value === 'function') {
     throw new Error('Invalid JSON input, functions are not supported');
@@ -8,6 +10,12 @@ export function getJsonSchemaType(value: any): string {
   if (typeof value === 'object') {
     if (Array.isArray(value)) return 'array';
     if (value === null) return 'null';
+
+    const proto = Object.getPrototypeOf(value);
+    if (proto !== PLAIN_OBJ_PROTOTYPE && proto !== null) {
+      throw new Error('Invalid JSON input');
+    }
+
     return 'object';
   }
 

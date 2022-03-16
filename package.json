@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "compile": "tsc",
     "prepublishOnly": "npm run compile",
     "prepare": "husky install",

@@ -4,4 +4,5 @@ module.exports = {
   testEnvironment: 'node',
   snapshotSerializers: ['./__tests__/json-serializer.js'],
   testRegex: '.test.ts$',
+  coveragePathIgnorePatterns: ['__tests__/'],
 };

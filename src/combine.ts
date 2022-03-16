@@ -1,4 +1,4 @@
-import { groupByField, intersect } from './js-utils';
+import { groupBy, intersect } from './js-utils';
 import { JSONSchema, ConvertOptions } from './types';
 import { isNull, isScalarType } from './utils';
 
@@ -6,18 +6,21 @@ export function combineSchemas(schemas: JSONSchema[], options: ConvertOptions) {
   const withoutNulls = schemas.filter(schema => !isNull(schema, options.targetSchema));
   const hasNull = withoutNulls.length < schemas.length;
 
-  const groups = groupByField(withoutNulls, 'type');
+  const groups = Object.entries(groupBy(withoutNulls, 'type')).map(([type, schemas]) => ({
+    type,
+    schemas,
+  }));
 
   let res: any = {};
 
   if (groups.length === 1) {
-    res = simpleCombine(groups[0].values, options);
+    res = simpleCombine(groups[0].schemas, options);
   } else if (groups.length > 1) {
-    if (groups.every(g => isScalarType(g.group)) && options.targetSchema === 'draft-2020-12') {
+    if (groups.every(g => isScalarType(g.type)) && options.targetSchema === 'draft-2020-12') {
       res = simpleCombine(withoutNulls, options);
     } else {
       res = {
-        anyOf: groups.map(g => simpleCombine(g.values, options)),
+        anyOf: groups.map(g => simpleCombine(g.schemas, options)),
       };
     }
   }
@@ -103,7 +106,7 @@ function combineProperties(schemas: JSONSchema[], options: ConvertOptions) {
   }
 
   for (const propName of allPropertyNames.values()) {
-    const propSchemas = schemas.map(s => s.properties[propName]).filter(Boolean);
+    const propSchemas = schemas.map(s => s.properties?.[propName]).filter(Boolean);
     properties[propName] = combineSchemas(propSchemas, options);
   }
 
