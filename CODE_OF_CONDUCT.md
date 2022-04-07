@@ -1,128 +1,83 @@
-# Contributor Covenant Code of Conduct
+# Code of conduct
 
-## Our Pledge
+## 1. Purpose
 
-We as members, contributors, and leaders pledge to make participation in our
-community a harassment-free experience for everyone, regardless of age, body
-size, visible or invisible disability, ethnicity, sex characteristics, gender
-identity and expression, level of experience, education, socio-economic status,
-nationality, personal appearance, race, religion, or sexual identity
-and orientation.
+The primary goal of Redocly’s **Code of conduct** is to foster inclusive, collaborative and safe working conditions for all Redocly staff and community members. As such, Redocly is committed to providing a friendly, safe and welcoming environment for all staff, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).
 
-We pledge to act and interact in ways that contribute to an open, welcoming,
-diverse, inclusive, and healthy community.
+This **Code of conduct** outlines our expectations for all Redocly staff and community members, as well as the consequences for unacceptable behavior.
 
-## Our Standards
+## 2. Scope
 
-Examples of behaviour that contributes to a positive environment for our
-community include:
+The **Code of conduct** applies to all Redocly staff. This includes full-time, part-time and contractor staff employed at every seniority level. The **Code of conduct** is to be upheld during all professional functions and events, including but not limited to business hours at the Redocly office, during Redocly-related extracurricular activities and events, while attending conferences and other professional events on behalf of Redocly, and while working remotely and communicating on Redocly resources with other staff.
 
-* Demonstrating empathy and kindness toward other people
-* Being respectful of differing opinions, viewpoints, and experiences
-* Giving and gracefully accepting constructive feedback
-* Accepting responsibility and apologizing to those affected by our mistakes,
-  and learning from the experience
-* Focusing on what is best not just for us as individuals, but for the
-  overall community
+We expect all Redocly staff to abide by this **Code of conduct** in all business matters -- online and in-person -- as well as in all one-on-one communications with customers and staff pertaining to Redocly business.
 
-Examples of unacceptable behavior include:
+This **Code of conduct** also applies to unacceptable behavior occurring outside the scope of business activities when such behavior has the potential to adversely affect the safety and well-being of Redocly staff and clients.
 
-* The use of sexualized language or imagery, and sexual attention or
-  advances of any kind
-* Trolling, insulting or derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or email
-  address, without their explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+## 3. Culture & citizenship
 
-## Enforcement Responsibilities
+A supplemental goal of this **Code of conduct** is to increase open citizenship by encouraging participants to recognize the relationships between our actions and their effects within Redocly culture.
 
-Community leaders are responsible for clarifying and enforcing our standards of
-acceptable behavior and will take appropriate and fair corrective action in
-response to any behavior that they deem inappropriate, threatening, offensive,
-or harmful.
+**Be welcoming.** We strive to be a company that welcomes and supports people of all backgrounds and identities. This includes, but is not limited to members of any race, ethnicity, culture, national origin, color, immigration status, social and economic class, educational level, sexual orientation, gender identity and expression, age, size, family status, political belief, religion, and mental and physical ability.
 
-Community leaders have the right and responsibility to remove, edit, or reject
-comments, commits, code, wiki edits, issues, and other contributions that are
-not aligned to this Code of Conduct, and will communicate reasons for moderation
-decisions when appropriate.
+**Be considerate.** Your work at Redocly will be used by other people, and you in turn will depend on the work of others. Any decision you take will affect users and colleagues, and you should take those consequences into account when making decisions.
 
-## Scope
+**Be respectful.** Not all of us will agree all the time, but disagreement is no excuse for poor behavior and poor manners. We might all experience some frustration now and then, but we cannot allow that frustration to turn into a personal attack. It’s important to remember that a company where people feel uncomfortable or threatened is neither productive nor pleasant. Redocly staff should always be respectful when dealing with other personnel as well as with people outside of Redocly employment.
 
-This Code of Conduct applies within all community spaces, and also applies when
-an individual is officially representing the community in public spaces.
-Examples of representing our community include using an official e-mail address,
-posting via an official social media account, or acting as an appointed
-representative at an online or offline event.
+## 4. Acceptable and expected behavior
 
-## Enforcement
+The following behaviors are expected and requested of all Redocly staff and community members:
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at
-support@keploy.io.
-All complaints will be reviewed and investigated promptly and fairly.
+- Participate in an authentic and active way. In doing so, you contribute to the health and longevity of Redocly.
+- Exercise consideration and respect in your speech and actions at all times.
+- Attempt collaboration before conflict.
+- Refrain from demeaning, discriminatory, or harassing behavior and speech.
+- Be mindful of your surroundings and of your fellow participants. Alert Redocly leaders if you notice a dangerous situation, someone in distress, or violations of this **Code of conduct**, even if they seem inconsequential.
+- Remember that Redocly events may be shared with members of the public and Redocly customers; please be respectful to all patrons of these locations at all times.
 
-All community leaders are obligated to respect the privacy and security of the
-reporter of any incident.
+## 5. Unacceptable behavior
 
-## Enforcement Guidelines
+The following behaviors are considered harassment and are unacceptable within our community:
 
-Community leaders will follow these Community Impact Guidelines in determining
-the consequences for any action they deem in violation of this Code of Conduct:
+- Violence, threats of violence or violent language directed against another person.
+- Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language.
+- Posting or displaying sexually explicit or violent material.
+- Posting or threatening to post other people’s personally identifying information ("doxing").
+- Personal insults, particularly those related to gender, sexual orientation, race, religion, or disability.
+- Inappropriate photography or recording.
+- Inappropriate physical contact. You should have someone’s consent before touching them in any manner.
+- Unwelcome sexual attention. This includes sexualized comments or jokes; inappropriate touching, groping, and unwelcome sexual advances.
+- Deliberate intimidation, stalking or following (online or in person).
+- Advocating for, or encouraging, any of the above behavior.
+- Repeated harassment of others. In general, if someone asks you to stop, then stop.
+- Other conduct which could reasonably be considered inappropriate in a professional setting.
 
-### 1. Correction
+## 6. Consequences of unacceptable behavior
 
-**Community Impact**: Use of inappropriate language or other behavior deemed
-unprofessional or unwelcome in the community.
+Unacceptable behavior from any Redocly staff, including those with decision-making authority, will not be tolerated.
 
-**Consequence**: A private, written warning from community leaders, providing
-clarity around the nature of the violation and an explanation of why the
-behavior was inappropriate. A public apology may be requested.
+Anyone asked to stop unacceptable behavior is expected to comply immediately.
+If a staff member engages in unacceptable behavior, Redocly leadership may take any action deemed appropriate, up to and including suspension or termination.
 
-### 2. Warning
+## 7. Reporting violations
 
-**Community Impact**: A violation through a single incident or series
-of actions.
+If you are subject to or witness unacceptable behavior, or have any other concerns, please notify an appropriate member of Redocly leadership as soon as possible.
 
-**Consequence**: A warning with consequences for continued behavior. No
-interaction with the people involved, including unsolicited interaction with
-those enforcing the Code of Conduct, for a specified period of time. This
-includes avoiding interactions in community spaces as well as external channels
-like social media. Violating these terms may lead to a temporary or
-permanent ban.
+It is a violation of this policy to retaliate against any person making a complaint of Unacceptable Behavior or against any person participating in the investigation of (including testifying as a witness to) any such allegation. Any retaliation or intimidation may be subject to punitive action up to and including termination.
 
-### 3. Temporary Ban
+## 8. Disciplinary action
 
-**Community Impact**: A serious violation of community standards, including
-sustained inappropriate behavior.
+Colleagues who violate this policy may face disciplinary consequences in proportion to their violation. Redocly management will determine how serious an offense is and take the appropriate action.
 
-**Consequence**: A temporary ban from any sort of interaction or public
-communication with the community for a specified period of time. No public or
-private interaction with the people involved, including unsolicited interaction
-with those enforcing the Code of Conduct, is allowed during this period.
-Violating these terms may lead to a permanent ban.
+## 9. Responsibility
 
-### 4. Permanent Ban
+It is your responsibility to ensure this policy is followed.
 
-**Community Impact**: Demonstrating a pattern of violation of community
-standards, including sustained inappropriate behavior,  harassment of an
-individual, or aggression toward or disparagement of classes of individuals.
+**Credits**
 
-**Consequence**: A permanent ban from any sort of public interaction within
-the community.
+Policy created from the following Open Source Codes of conduct text and guidance:
 
-## Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant][homepage],
-version 2.0, available at
-https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
-
-Community Impact Guidelines were inspired by [Mozilla's code of conduct
-enforcement ladder](https://github.com/mozilla/diversity).
-
-[homepage]: https://www.contributor-covenant.org
-
-For answers to common questions about this code of conduct, see the FAQ at
-https://www.contributor-covenant.org/faq. Translations are available at
-https://www.contributor-covenant.org/translations.
+- Django Code of conduct
+- Contributor Covenant
+- Citizen Code of conduct
+- Open Source Code of conduct

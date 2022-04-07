@@ -1,28 +1,19 @@
-# Json-to-Json-Schema Contribution Guideline
+# Redocly Contributing Guide
 
-We're so glad that you're thinking about contributing to Json-to-Json-Schema. We welcome your contributions!
+Hi! We're really excited that you're interested in contributing to the JSON-TO-JSON-SCHEMA.
 
-Here are some guidelines and instructions for contributing to our projects. Please go through them before making a contribution.
+You can help us make the extension better by:
 
-## Code of Conduct
+- [reporting bugs](https://github.com/Redocly/json-to-json-schema/issues/new/choose)
+- [sharing ideas for new features](https://github.com/Redocly/json-to-json-schema/issues/new/choose)
+- [improving the README](./README.md)
 
-Json-to-Json-Schema governs its participants according to the Contributor [Code of Conduct](). As a contributor, you agree to uphold this code. 
+To ensure that your contribution is successful, please follow these guidelines:
 
-## How to Contribute Code?
+- Before opening a new issue, try to make sure the same problem or idea hasn't already been reported. You can do that by going to the [Issues page](https://github.com/Redocly/json-to-json-schema/issues) in the repository and using the filter `is:issue` combined with some keywords relevant to your idea or problem. It helps us notice that more people have the same issue or use-case, and reduces the chance of getting your issue marked as a duplicate. Plus, you can even find some workarounds for your issue in the comments of a previously reported one!
 
-Bug fixes, performance improvements, code formatting, ...
-There are a lot ways in which you can contribute code!
-The issues list of a project is a great place to find something that you can help us with.
+- When opening a new issue, you'll use one of the templates (depending on the issue type). The templates lead you through the issue submission process by suggesting what to write in each section. You don't have to fill in all sections in a template if they're not relevant to your issue. Feel free to delete irrelevant sections from your issue before submitting it, or leave them blank.
 
-To increase the chances of your code getting merged, please ensure that:
-* Your pull request:
+- The best way to get your bug fixed is to provide a (reduced) test case. This means listing and explaining the steps we should take to try and hit the same problem you're having. It helps us understand in which conditions the issue appears, and gives us a better idea of what may be causing it.
 
-    * Follow all contribution guidelines
-    * Passes all checks and has no conflicts.
-    * Has a well-written title and message that briefly explains your proposed changes.
-
-## How to Report Bugs, Provide Feedback or Request Features?
-
-We welcome all kinds of bug reports, user feedback and feature requests!
-
-We've created some issue templates to assist you in this. Please use them to create [a new issue](https://github.com/Redocly/json-to-json-schema/issues) in the relevant project's repository.
+- Abide by our [Code of Conduct](./CODE_OF_CONDUCT.md) in all your interactions on this repository, and show patience and respect to other community members.
