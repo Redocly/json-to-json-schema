@@ -36,7 +36,6 @@ describe('utils: formatNull', () => {
   });
 });
 
-
 describe('utils: formatExample', () => {
   test('invalid draft', () => {
     // @ts-expect-error
