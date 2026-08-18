@@ -12,6 +12,12 @@ describe('js-utils: intersect', () => {
     expect(res).toBeInstanceOf(Set);
     expect(Array.from(res.values())).toEqual([1]);
   });
+
+  test('intersect partially overlapping sets', () => {
+    const res = intersect([new Set([1, 2]), new Set([2, 3])]);
+    expect(res).toBeInstanceOf(Set);
+    expect(Array.from(res.values())).toEqual([2]);
+  });
 });
 
 describe('js-utils: groupBy', () => {
