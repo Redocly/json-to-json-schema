@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`complex schemas EU Document 1`] = `
 type: object
@@ -172,7 +172,7 @@ properties:
   customerId:
     type: string
     examples:
-      - '123_456789'
+      - 123_456789
   redirectUrl:
     type: string
     examples:
